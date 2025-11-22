@@ -1,5 +1,7 @@
 """
-Write a function that prints the digits of a number ,n"""
+Write a function that prints the digits of a number ,n
+
+"""
 
 
 # def func(n):
@@ -7,8 +9,9 @@ Write a function that prints the digits of a number ,n"""
 #         last_dig = n % 10
 #         print(int(last_dig))
 #         n = n /10
-
 # func(n)
+
+
 n = int(input("Enter number :"))
 
 def func(n):

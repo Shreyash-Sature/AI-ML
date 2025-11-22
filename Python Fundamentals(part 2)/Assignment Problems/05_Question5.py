@@ -11,15 +11,3 @@ def sumation(n):
     return digi_sum
 ans = sumation(n)
 print("Sum of digits of given numbers is :", ans)
-
-# def digit_sum(n):
-#     total = 0
-#     while n > 0:
-#         last_dig = n % 10
-#         total = total + last_dig
-#         n = n // 10
-#     return total
-
-# n = int(input("Enter the number : "))
-# ans = digit_sum(n)
-# print("Sum of digits :", ans)
