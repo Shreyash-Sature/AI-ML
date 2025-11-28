@@ -1,11 +1,14 @@
-class Animal:
-    def eat(self):
-        print("Eating")
+"""
+1) Class atributes : belongs to class 
+2) Instance attribute : belongs to object
+"""
 
-class Dog(Animal):
-    def bark(self):
-        print("Barking")
+class Student:
+    clg_name = "DYPIT"     #class atribute
 
-d = Dog()
-d.eat()   # Inherited from Animal
-d.bark()  # Dog's own method
+    def __init__(self,name,age):
+        self.name = name           #instance attributes
+        self.age = age
+
+stud1 = Student("Shreyash",20)
+print(stud1.clg_name)
