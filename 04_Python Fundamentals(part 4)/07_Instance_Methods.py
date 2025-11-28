@@ -4,6 +4,7 @@ Methods : Instance method
           Static method
 """
 #Instance Method : 
+#Its first parameter is (self)
 """ It can access Instance attributes/variables, Class variables and call other methods in same class """
 
 class Laptop:
