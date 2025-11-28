@@ -1,0 +1,1 @@
+#Encapsulation : Wrapping data + methods into a single unit (class) and restricting direct access to data.
