@@ -14,7 +14,7 @@ class Laptop:
         self.RAM = RAM
         self.storage = storage
     
-    def get_info(self):
+    def get_info(self):  #Instance Method : can access class and instance attributes/variables
         print(f"This Laptop has {l1.RAM} RAM and {l1.storage} {l1.storage_type}")
 
 l1 = Laptop("8GB","256GB")
