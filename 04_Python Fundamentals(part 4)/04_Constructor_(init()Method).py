@@ -12,7 +12,7 @@ def __init__(self, parameters):
 self refers to the current object
 
 """
-class Student :
+"""class Student :
     def __init__(self,name,age ,branch): #constructor
         self.name = name                 
         self.age = age               #attributes
@@ -23,3 +23,14 @@ stud2 = Student("Kaalu",20,"IT")
 
 print(f"Name of student is {stud1.name} and Branch of student is {stud1.branch}." )
 print(stud2.name, stud2.age)
+"""
+
+class Student:
+    def __init__(self,name,age,branch):
+        self.name = name
+        self.age = age
+        self.branch = branch
+    
+stud1 = Student("Shreyash", 20,"Computer")
+
+print(stud1.name, stud1.age)
