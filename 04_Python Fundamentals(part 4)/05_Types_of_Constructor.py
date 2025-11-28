@@ -1,4 +1,4 @@
-# Default Constructor 
+"""# Default Constructor 
 class Student:
     def __init__(self):
         print("Default Constructor Called")
@@ -21,3 +21,15 @@ class Student:
         self.name = "Unknown"
         self.age = 0
 
+"""
+class Student :
+    def __init__(self,name,age,cgpa):
+        self.name = name
+        self.age = age
+        self.cgpa = cgpa
+    
+    def get_cgpa(self):
+        return self.cgpa
+    
+stud1 = Student("Shreyash", 20,9.5)
+print(f"{stud1.name} has cgpa of {stud1.get_cgpa()}")
