@@ -1,0 +1,19 @@
+"""
+Methods : Instance method
+          Class method
+          Static method
+"""
+#Instance Method : 
+""" It can access Instance attributes/variables, Class variables and call other methods in same class """
+
+class Laptop:
+    storage_type = "SSD"
+
+    def __init__(self,RAM,storage):
+        self.RAM = RAM
+        self.storage = storage
+
+l1 = Laptop("8GB","256GB")
+l2 = Laptop("16GB","512GB")
+
+print(f"Laptop 1 has {l1.RAM} RAM and {l1.storage} {l1.storage_type}")
