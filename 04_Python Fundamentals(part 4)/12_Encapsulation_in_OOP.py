@@ -23,3 +23,4 @@ class Bank:
 cust1 = Bank("Shreyash",111_01_00_000)
 cust2 = Bank("Shreya",1_00_000)
 cust1.get_info()
+cust2.get_info()
