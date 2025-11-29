@@ -18,7 +18,7 @@ class Bank:
         self.__balance = balance
 
     def get_info(self):
-        print(f"Name is : {self.name} and acc balance is {self.__balance}")
+        print(f"Name of account holder is {self.name} and acc balance is {self.__balance}")
 
 cust1 = Bank("Shreyash",111_01_00_000)
 cust2 = Bank("Shreya",1_00_000)
