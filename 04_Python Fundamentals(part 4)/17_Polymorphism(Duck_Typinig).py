@@ -7,7 +7,7 @@ class Teacher:
     def get_designation(self):
         print("Designation = Teacher")
 
-class Accountant:
+class Accountant:             # No inheritance (no relation between two classes)
     def get_designation(self):
         print("Designation = Accountant")
 
