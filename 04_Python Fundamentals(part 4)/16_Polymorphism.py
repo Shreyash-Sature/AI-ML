@@ -14,9 +14,9 @@ class Employee:
         print("Designation = Employee")
 
 class Teacher(Employee):
-    def get_designation(self):
+    def get_designation(self):        #overriden function
         print("Designation = Teacher")
 
-t1= Teacher()
+t1= Teacher()  
 t1.get_designation()
 
