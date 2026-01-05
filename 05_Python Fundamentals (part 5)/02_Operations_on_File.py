@@ -1,7 +1,18 @@
-# Opening a file cl
+# Opening a file 
+"""
+Syntax : 
+
+f = open("file_name", "mode")
+
+mode : r(reading), w (write) ,etc
+"""
 f = open("data.txt", "r")
 
+
 #Reading from file
+"""
+To read a file first open it into reading mode.
+In reading mode you cant write file """
 #read() – Reads entire file
 f = open("data.txt", "r")
 content = f.read()
@@ -16,6 +27,9 @@ print(line1, line2)
 
 
 #Writing to a File
+"""
+To write file first open file into write mode.
+"""
 f = open("data.txt", "w")
 f.write("Hello World!\n")
 f.write("How are you?.")

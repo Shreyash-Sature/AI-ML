@@ -24,10 +24,10 @@ print(json_obj, type(json_obj))
 
 #for files 
 #loads JSON info to Python
-"""with open("10_data.json","r") as f:
+with open("10_data.json","r") as f:
     py_obj = json.load(f)
 
-    print(py_obj,type(py_obj))"""
+    print(py_obj,type(py_obj))
 
 
 #dumps Python info to JSON file

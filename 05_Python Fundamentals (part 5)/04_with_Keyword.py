@@ -14,3 +14,8 @@ Can cause memory leaks
 
 with open("data.txt","r") as f:
     print(f.read())
+
+"""
+File is automatically closed
+Cleaner and safer
+"""
