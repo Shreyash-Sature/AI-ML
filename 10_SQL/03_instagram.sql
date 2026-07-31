@@ -1,6 +1,7 @@
 CREATE DATABASE instagram;
 USE instagram;
 
+-- create table
 CREATE TABLE users
 (id INT PRIMARY KEY,
 name VARCHAR(15) NOT NULL,
@@ -11,7 +12,7 @@ following INT,
 CONSTRAINT age_check CHECK (age >=13)
 );
 
-
+-- insert values in table
 INSERT INTO users
 (id , name, email, followers, age, following)
 VALUES
@@ -21,9 +22,16 @@ VALUES
 (4, "yash", "shreysature@gmail.com", 81, 21, 65),
 (5, "shreyya", "shreesature@gmail.com", 65, 21, 54);
 
+-- use of foreign key
 CREATE TABLE posts
 (id INT PRIMARY KEY, 
 post VARCHAR(20) , 
 user_id INT, 
 FOREIGN KEY (user_id) REFERENCES users(id)
 );
+
+-- select command
+SELECT id, name FROM users;
+SELECT * FROM users;
+
+-- select distinct 
